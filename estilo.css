@@ -1,0 +1,42 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #0a0a4f;
+    color: #f1f1f1; /* Color de texto general */
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 10px 16px; /* Más espacio entre los enlaces */
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181; /* Color inicial */
+    display: block;
+    transition: color 0.3s; /* Transición suave */
+}
+
+.sidenav a:hover {
+    color: #f1f1f1; /* Color al pasar el mouse */
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 20px; /* Espacio interno */
+}
+
+p {
+    font-size: 16px;
+    padding: 10px 0; /* Espacio entre párrafos */
+    text-align: justify;
+}
